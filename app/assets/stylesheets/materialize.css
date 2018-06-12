@@ -9095,3 +9095,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 p {
   font-family: 'Patrick Hand SC', cursive;
 }
+
+.nav-wrapper {
+  text-shadow: 0px 1px 0px black;
+}
