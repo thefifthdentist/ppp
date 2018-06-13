@@ -2833,7 +2833,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 600px;
+  height: 410px;
 }
 
 .parallax-container .parallax {
@@ -2842,7 +2842,7 @@ video.responsive-video {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: -3;
 }
 
 .parallax-container .parallax img {
@@ -4545,8 +4545,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
   font-family: 'Krona One', sans-serif;
-  font-size: 10.2rem;
-  line-height: 200%;
+  font-size: 8.2rem;
+  line-height: 150%;
   margin: 0 0 0 0;
   text-shadow: 2px 2px 4px #efbd09;
   /* margin: 0px; */
@@ -4573,7 +4573,7 @@ font-family: 'Walter Turncoat', cursive; */
 }
 
 h3 {
-  font-size: 4.5rem;
+  font-size: 3.85rem;
   font-family: 'Krona One', sans-serif;
   line-height: 120%;
   margin: 5 0 1.168rem 0;
@@ -4582,7 +4582,7 @@ h3 {
 
 h4 {
   font-family: 'Krona One', sans-serif;
-  font-size: 2.28rem;
+  font-size: 2.02rem;
   line-height: 110%;
   margin: 0 0 0.912rem 0;
 }
@@ -4597,7 +4597,7 @@ h5 {
 
 h6 {
   font-family: 'Patrick Hand SC', cursive;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   line-height: 110%;
   margin: 0.7666666667rem 0 0.46rem 0;
 }
@@ -4811,12 +4811,12 @@ small {
 }
 
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
-  max-height: 60%;
+  max-height: 75%;
   overflow: hidden;
 }
 
 .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
-  max-height: 40%;
+  max-height: 25%;
 }
 
 .card.small .card-content, .card.medium .card-content, .card.large .card-content {
@@ -4909,7 +4909,7 @@ small {
 
 .card .card-image img {
   display: block;
-  border-radius: 2px 2px 0 0;
+  /* border-radius: 28px; */
   position: relative;
   left: 0;
   right: 0;
@@ -4947,7 +4947,7 @@ small {
 }
 
 .card .card-action {
-  background-color: inherit;
+  background-color: transparent;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   position: relative;
   padding: 16px 24px;
@@ -4972,7 +4972,7 @@ small {
 .card .card-reveal {
   padding: 24px;
   position: absolute;
-  background-color: #fff;
+  background-color: #00000000;
   width: 100%;
   overflow-y: auto;
   left: 0;
@@ -9092,10 +9092,30 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   background: linear-gradient(to right, #629E73, #E3E585);
 }
 
+.grad2 {
+  background: linear-gradient(to left, #629E73, #E3E585);
+}
+
 p {
   font-family: 'Patrick Hand SC', cursive;
 }
 
+p1 {
+  font-family: 'Krona One', sans-serif;
+}
+
 .nav-wrapper {
   text-shadow: 0px 1px 0px black;
+}
+
+#index-banner {
+  position: relative;
+  overflow: hidden;
+  height: 550px;
+}
+
+.index-banner {
+  position: relative;
+  overflow: hidden;
+  height: 512px;
 }
